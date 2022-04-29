@@ -9,5 +9,5 @@ export function hardhatChaiMatchers(
 ) {
   supportBigNumber(chai.Assertion, utils);
   supportEmit(chai.Assertion);
-  supportReverted(chai.Assertion);
+  supportReverted(chai.Assertion, utils);
 }
